@@ -8,6 +8,7 @@ Shake Sans는 [Asta Sans](https://github.com/42dot/Asta-Sans)의 한글과 [Geis
 [최신 버전](https://github.com/shake-fonts/sans/releases/latest)
 
 - `static/` 굵기별 TTF — Shake Sans
+- `otf/` 굵기별 OTF — Shake Sans
 - `variable/` 가변 TTF — Shake Sans Variable
 - `woff2/` 웹용 WOFF2
 
