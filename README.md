@@ -1,6 +1,6 @@
 # Shake Sans
 
-Shake Sans는 [Asta Sans](https://github.com/42dot/Asta-Sans)의 한글과 [Geist](https://github.com/vercel/geist-font)의 라틴·숫자를 바탕으로 한 한글 Sans-Serif 글꼴입니다. 7가지 굵기(200–800)와 Variable Font를 제공합니다.
+Shake Sans는 [Asta Sans](https://github.com/42dot/Asta-Sans)의 한글과 [Geist](https://github.com/vercel/geist-font)의 라틴·숫자를 바탕으로 한 한글 Sans-Serif 글꼴입니다. 7가지 굵기(200–800)와 Expanded 너비(100–150), Variable Font를 제공합니다.
 자세한 내용은 [소개 페이지](https://fonts.shake.st/sans)에서 확인하세요.
 
 ## 다운로드
@@ -9,8 +9,11 @@ Shake Sans는 [Asta Sans](https://github.com/42dot/Asta-Sans)의 한글과 [Geis
 
 - `static/` 굵기별 TTF — Shake Sans
 - `otf/` 굵기별 OTF — Shake Sans
-- `variable/` 가변 TTF — Shake Sans Variable
+- `variable/` 가변 TTF (굵기 × 너비) — Shake Sans Variable
+- `expanded/` Expanded 정적 TTF·OTF·WOFF2 — Shake Sans (스타일 Expanded, Expanded Bold …)
 - `woff2/` 웹용 WOFF2
+
+정적과 가변은 이름이 달라 함께 설치해도 됩니다. Word 같은 오피스 앱에서는 정적 글꼴(`static/`, `otf/`)을 쓰세요.
 
 ## 웹폰트
 
@@ -21,6 +24,9 @@ Shake Sans는 [Asta Sans](https://github.com/42dot/Asta-Sans)의 한글과 [Geis
 ```css
 body {
   font-family: "Shake Sans", sans-serif;
+}
+.expanded {
+  font-stretch: 150%;
 }
 ```
 
